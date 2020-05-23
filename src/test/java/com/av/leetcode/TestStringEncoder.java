@@ -2,6 +2,7 @@ package com.av.leetcode;
 
 import static org.junit.Assert.*;
 
+import com.av.interview.wwt.StringEncoder;
 import org.junit.Test;
 
 public class TestStringEncoder {
