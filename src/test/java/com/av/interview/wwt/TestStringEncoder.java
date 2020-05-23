@@ -1,8 +1,6 @@
-package com.av.leetcode;
+package com.av.interview.wwt;
 
-import static org.junit.Assert.*;
-
-import com.av.interview.wwt.StringEncoder;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class TestStringEncoder {
@@ -13,12 +11,12 @@ public class TestStringEncoder {
         String input1 = "Hello World!";
         String expectedAnswer = "g2kk4yv4qkc!";
 
-        assertEquals(expectedAnswer, StringEncoder.encode(input1));
+        Assert.assertEquals(expectedAnswer, StringEncoder.encode(input1));
 
 
         String input2 = "FH12LL";
         expectedAnswer = "eg21kk";
-        assertEquals(expectedAnswer, StringEncoder.encode(input2));
+        Assert.assertEquals(expectedAnswer, StringEncoder.encode(input2));
 
 
 
